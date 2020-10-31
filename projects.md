@@ -2,7 +2,7 @@
 layout: construction
 path: /projects
 url: index.html
-image: selfriver.png
+image: Advocate.png
 ---
 
 ## Quick Spiel

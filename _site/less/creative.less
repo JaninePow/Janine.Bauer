@@ -154,23 +154,27 @@ aside {
 // Homepage Header
 
 header {
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
     position: relative;
     width: 100%;
     min-height: auto;
     .background-cover;
-    background-position: center;
-    background-image: url('../img/headerpic.jpg');
+    background-image: url('../img/me.jpg');
     text-align: center;
     color: white;
     .header-content {
         position: relative;
-        text-align: center;
+        text-align: left;
         padding: 100px 15px 300px;
         width: 100%;
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -224,6 +228,14 @@ header {
     p {
         margin-bottom: 0;
     }
+}
+
+.portfolio-box {
+    margin: 10px !important;
+}
+
+img.resize {
+    border-radius: 10px;
 }
 
 .portfolio-box {

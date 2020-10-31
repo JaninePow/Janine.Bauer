@@ -1,7 +1,7 @@
 # Site settings
 title:              Janine Bauer
 email:              jainine.bauer@me.com
-description:        "Portfolio template for students in the MSR program at Northwestern University"
+description:        "Portfolio"
 url:                "http://localhost:4000"
 # baseurl:            /main
 baseurl:

@@ -47,7 +47,7 @@ p {
 }
 
 .bg-primary {
-    background-color: @theme-primary;
+    background-color: white;
 }
 
 .bg-dark {
@@ -124,10 +124,10 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
-            &:hover {
-                color: white;
-            }
+            // color: fade(white, 70%);
+            // &:hover {
+            //     color: white;
+            // }
         }
         &.affix {
             background-color: white;
@@ -158,17 +158,15 @@ header {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 100%;
-    text-align: left;
     position: relative;
     width: 100%;
     min-height: auto;
     .background-cover;
-    background-image: url('../img/me.jpg');
+    // background-image: url('../img/me.jpg');
     text-align: center;
-    color: white;
+    color: @theme-dark;
     .header-content {
         position: relative;
-        text-align: left;
         padding: 100px 15px 300px;
         width: 100%;
         .header-content-inner {
@@ -213,6 +211,38 @@ header {
     // }
 }
 
+
+
+
+h3 { 
+    display: flex; 
+    justify-content: center; 
+} 
+
+span::before { 
+    content: "design"; 
+    animation: animate infinite 3s; 
+    padding-left: 10px; 
+} 
+
+@keyframes animate { 
+
+    0% { 
+        content: "design"; 
+    } 
+
+    50% { 
+        content: "prototyping"; 
+    } 
+
+    75% { 
+        content: "photography"; 
+    } 
+} 
+
+
+
+
 // Sections
 
 .section-heading {
@@ -244,10 +274,10 @@ img.resize {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: white;
+        color: 020202;
         opacity: 0;
         display: block;
-        background: fade(@theme-primary, 90%);
+        background: white;
         position: absolute;
         bottom: 0;
         text-align: center;

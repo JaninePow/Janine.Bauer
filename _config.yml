@@ -1,10 +1,11 @@
 # Site settings
-title:              Janine Bauer
+title:              Portfolio
 email:              jainine.bauer@me.com
 description:        "Portfolio"
 url:                "http://localhost:4000"
 # baseurl:            /main
 baseurl:
+
 
 # File structure settings
 image_path:         /public/images
@@ -18,4 +19,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+
 

@@ -169,6 +169,8 @@ header {
         position: relative;
         padding: 100px 15px 300px;
         width: 100%;
+        background-color: white;
+        color: @theme-dark;
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -228,7 +230,7 @@ span::before {
 @keyframes animate { 
 
     0% { 
-        content: "design"; 
+        content: "  design   "; 
     } 
 
     50% { 
@@ -387,4 +389,22 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-dark;
+}
+
+
+//About
+
+.aboutpic{
+    background-image: url('../img/me.jpg');
+    background-color: #cccccc;
+
+    border-radius: 50%;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+}
+
+.abouttext{
+    margin-top: 50px;
 }

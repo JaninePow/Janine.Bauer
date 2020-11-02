@@ -26,10 +26,10 @@ title: Portfolio
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="./css/creative.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,10 +73,10 @@ title: Portfolio
                         <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="./about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
+                        <a href="./resume.pdf">Resume</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -92,101 +92,23 @@ title: Portfolio
         <div class="header-content text-center">
             <h1>Hello! I'm Janine.</h1>
             <h3>User Experience Desiger</h3>
-            <h3>Passionate about conception, protoyping, photograpy</h3>
             <h3>Passionate about <span> </span></h3> 
-            <!-- <div class="row">
-            
-                <div class="header-content-inner header-content-inner col-lg-6 col-md-6 col-md-offset-6  col-lg-offset-6">
-                    <h1>Hello! I'm Janine.</h1>
-                    <h2>User Experience Designer</h2>
-                    -->
                     </br> </br> 
-                    <a href="#content" class="btn btn-primary btn-xl page-scroll">About me</a>
+                    <a class="btn btn-primary btn-xl page-scroll" href="./about">About</a>
                 </div>
          </div> 
         </div>
     </header>
 
-<!--     <section id="content">
-
-
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">Content</h2>
-            <hr class="primary">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <!-- <a href="http://timo-bohnstedt.medium.com"> 
-                            <i class="fa fa-4x fa-medium wow bounceIn text-primary"></i>
-                        </a>
-                        <h3>Medium</h3>
-                        <p class="text-muted">Content on Data Science, Machine Learning and Deep Learning.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <!-- <a href="./resume.pdf"> 
-                            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        </a>
-                        <h3>Resume</h3>
-                        <p class="text-muted">My educational background, my professional experience, and my achievements summarised on one page.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <a href="https://www.github.com/bohniti">
-                            <i class="fa fa-4x fa-github wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        </a>
-                        <h3>GitHub</h3>
-                        <p class="text-muted">Source code of my completed and current projects.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <a href="https://www.instagram.com/beantown1992/">
-                            <i class="fa fa-4x fa-instagram wow bounceIn text-primary" data-wow-delay=".3s" ></i>
-                        </a>
-                        <h3>Instagram</h3>
-                        <p class="text-muted">Impressions from my life, the university and behind the scenes of my medium contributions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <center><a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a></center>
-    </section>
- -->
-    <!-- <section class="bg-primary" id="about">
-        <div class="header-content">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading-blue">About, in brief</h2>
-                    <hr class="light">
-                    <!-- <img src="img/timo@collage.png" alt="Italian Trulli" class="responsive"> -->
-                    <br>
-                    <!-- <p class="text-faded">Timo Bohnstedt is a recent graduate with a Bachelor of Science in Information Systems and Management from the Nuremberg Institute of Technology. His ultimate career goal is to solve a problem affecting over 10^9 people, particularly in the fields of Healthcare and engineering. Additional to his work in urban mobility, Timo has involved in the Beiersdorf Battelweeks Hackathon, research at Pattern Recognition Lab University Erlangen Nuremberg, as well as Kaggle challenges. Currently, a Computer Science Masters student, Timo is also working in fields of clinical data science, machine learning for biology, and deep learning for archology. -->
-
-                    <!-- </p></p>
-                    <a href="#services" class="btn btn-default btn-xl page-scroll">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section> --> 
-
-
-
     <section id="projects">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading"></h2>
-            <!-- <hr class="primary"> -->
+        <h2 class="section-heading"></h2>
         </div>
         <div class="container-fluid">
             <div class="row no-gutter">
             	{% for project in site.projects %}
                 <div class="col-lg-4 col-sm-6">
-                    <a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-box">
+                    <!-- <a href="{{ site.baseurl }}{{ project.url }}" class="portfolio-box"> -->
                         <img src="{{ site.image_path }}/{{ project.image }}" class="resize" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -198,7 +120,7 @@ title: Portfolio
                                 </div>
                             </div>
                         </div>
-                    </a>
+                   <!--  </a> -->
 
                 </div>
                 
@@ -206,15 +128,6 @@ title: Portfolio
             </div>
         </div>
     </section>
-
-    <!-- <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Wanna talk?</h2>
-                <a href="mailto:janine.bauer@me.com" class="btn btn-default btn-xl wow tada page-scroll" >Let's get in touch!</a>
-            </div>
-        </div>
-    </aside> -->
 
     <section id="contact">
         <div class="container">
@@ -224,14 +137,10 @@ title: Portfolio
                     <hr class="primary">
                     <p>For the moment, I'm looking for opportunities to deepen my experiences as a student. Are you interested in exciting projects, or would you like to participate in a hackathon with me? Then get in touch!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>+49 176 84389718</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:janine.bauer@me.com">janine.bauer@me.com</a></p>
-                </div>
+            </div>
+            <div class="text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:janine.bauer@me.com">janine.bauer@me.com</a></p>
             </div>
         </div>
     </section>

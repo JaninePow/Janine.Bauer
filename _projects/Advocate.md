@@ -2,24 +2,27 @@
 layout: project
 title: Advocate Running Training App
 image: Advocate.png
-date: September 29, 2018
+
 ---
-<div style="border-bottom:none;">
+
+
+
+
+<!-- <div style="border-bottom:none;">
   <div align="center"> 
     <!-- <img style="border-bottom:none;" src="https://raw.githubusercontent.com/bohniti/Jigsaw-Puzzling/master/readme-head.png"> -->
+  <!--  
      <img style="border-bottom:none;">
     <h2>Within this university project, I focus on the conception of an trainings app for tranee and coach with ankle issues. </h2>
   </div>
 </div>
+ -->
 
 
-## STRUCTURE
+<h1>More inforamtion about this topic are commin soon!</h1>
 
-```
 
-            
 
-```
 <!-- 
 ## Links to Ressources
 

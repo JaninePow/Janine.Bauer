@@ -122,13 +122,6 @@ aside {
                 color: white;
             }
         }
-        .nav > li > a,
-        .nav > li > a:focus {
-            // color: fade(white, 70%);
-            // &:hover {
-            //     color: white;
-            // }
-        }
         &.affix {
             background-color: white;
             border-color: fade(@theme-dark, 5%);
@@ -150,6 +143,16 @@ aside {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .nav.navbar-nav.navbar-center{
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+}
+
+
 
 // Homepage Header
 
@@ -387,6 +390,7 @@ body {
 
     border-radius: 50%;
     height: 430px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px;
@@ -394,4 +398,18 @@ body {
 
 .abouttext{
     margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .aboutpic{
+        background-image: url('../img/me.jpg');
+        background-color: #cccccc;
+    
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 50px;
+    }
 }

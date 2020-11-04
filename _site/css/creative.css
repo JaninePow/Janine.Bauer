@@ -127,6 +127,13 @@ aside {
     color: #3a86ff;
   }
 }
+@media (max-width: 768px) {
+  .nav.navbar-nav.navbar-center {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+}
 header {
   background-position: left;
   background-repeat: no-repeat;
@@ -387,10 +394,23 @@ body {
   background-color: #cccccc;
   border-radius: 50%;
   height: 430px;
+  width: 430px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 50px;
 }
 .abouttext {
   margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .aboutpic {
+    background-image: url('../img/me.jpg');
+    background-color: #cccccc;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+  }
 }

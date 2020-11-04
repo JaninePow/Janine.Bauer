@@ -162,15 +162,6 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
-h3 {
-  display: flex;
-  justify-content: center;
-}
-span::before {
-  content: "design";
-  animation: animate infinite 3s;
-  padding-left: 10px;
-}
 @keyframes animate {
   0% {
     content: "  design   ";

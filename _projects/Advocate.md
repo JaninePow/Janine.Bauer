@@ -1,92 +1,79 @@
 ---
 layout: project
-title: Advocate Running Training App
+title: Advocate
+subtitle: Running App for Prevention of Injuries 
 image: Advocate.png
 
 ---
 
 
+<div class="projectHeaderPic"></div>
+  
 
-
-<!-- <div style="border-bottom:none;">
-  <div align="center"> 
-    <!-- <img style="border-bottom:none;" src="https://raw.githubusercontent.com/bohniti/Jigsaw-Puzzling/master/readme-head.png"> -->
-  <!--  
-     <img style="border-bottom:none;">
-    <h2>Within this university project, I focus on the conception of an trainings app for tranee and coach with ankle issues. </h2>
+<div class="section">
+  <div class="row">
+    <div class="col-lg-6">
+      <h3>Project Vison</h3>
+      <p class="cl-lg-4 text-left">Advocate monitores ankle injurys for professional runners. The information are collected via 
+      sensor attached to the running shoes. The sensor tracks the ankle tilting to determine an overload of
+      inversion or exversion. The sensors on each foot show a status light of the information and send it via
+      bluetooth to bracelett. The athlete gets visual and haptic feedback of the bracelett.
+      After a running session the athlete can check perfomace data on the Advocate App. Besides, the coach of the
+      athlete get a summerazation.
+      </p>
+    </div>
+     <div class="col-lg-6">
+      <h3>Cooperation</h3>
+      <p>This study project was designed in my second year of my UXD studies in teamwork with Lena Stützt and Martin Gädeke.
+      The project is in cooperation with the Queensland University of Technology. The product design of the running shoe sensor is from Luis Tee.
+      </p>
+    </div>
   </div>
-</div>
- -->
 
+  <!-- <h3>Challenges</h3> -->
 
-<h1>More inforamtion about this topic are commin soon!</h1>
+  <div class="section text-center spacer">
 
+  <h3>Conception and Design Workflow</h3> 
 
+  <div class="row spacer">
+      <h3>Personas</h3>
+         <p>Harry Hurt is a young athlete.<br>Biggest challenge: "I am too often too ambitions."</p>
+        <p>William Whip is his coach.<br>Biggest challenge: "I often struggle with todays technology.‚"</p>
+   <!--    <img src="{{ site.image_path }}/advocate/advPersona1.png" height="310">
+      <img src="{{ site.image_path }}/advocate/advPersona2.png" height="310"> -->
+  </div> 
+  <br>
 
-<!-- 
-## Links to Ressources
+  <div class="row spacer">
+      <h3>Paperprototyping</h3>
+      <div id="advPaperprototype"></div>  
+  </div> 
+  
 
-- Approch to understand the Dataset as [iPython](https://github.com/bohniti/Jigsaw-Puzzling/blob/master/Code/Notebooks/Jigsaw-Puzzling-Data-Analysis.ipynb)
+   <div class="row spacer">
+      <h3>Wireframes</h3>
+          <div id="advWireframes"></div>  
+  </div>  
 
-## RESEARCH QUESTIONS
+  <div class="row spacer">
+      <h3>Moodboard</h3>
+      <div id="advMoodboard"></div>  
+ </div> 
 
-1. Is it possible to find all fragments which belong to the same page with a specific fragment as an input within the HisFrag20 Dataset?
-2. Is it possible to find all fragments which belong to the same writer with a specific fragment as an input within the HisFrag20 Dataset?
-
-## EVALUATION
-
-As suggested by the Steuert et al. the evaluation will be done using a leave-one-image-out cross-validation approach. This means that every image of the test set will be used as a query for which the other test images will have to be ranked. 
-
-The questions of interest are evaluated with the mean average precision (mAP). The mAP is based on the following values:
-1. On a writer-level, i.e. the goal is to find fragments of the same writer. 
-2. On a page-level, i.e. finding fragments of the same page
-
-The Authors of the data provided a [basline system](https://github.com/anguelos/wi19_evaluate/tree/master/srslbp) and a [program](https://github.com/anguelos/wi19_evaluat) to make the evaluation more easy.
-
-
-## THE DATASET
-
-<div style="border-bottom:none;">
-  <div align="center"> 
-    <img style="border-bottom:none;" src="https://raw.githubusercontent.com/bohniti/Jigsaw-Puzzling/master/readme-data.svg">
+ <div class="row spacer">
+      <h3>Design</h3>
+      <p>The watch sends the data to the app.</p>
+      <img src="{{ site.image_path }}/advocate/advWatch.png" height="100%">
+   </div>  
+ 
+   <div class="row spacer">
+    <p>The app shows statistics of one runnings session and overall statistics related to the time range. <br>A quick
+    check up about the feeling of the athlete is additionally collected.</p>
+      <img class="littlespacer" src="{{ site.image_path }}/advocate/advPrototyp1.png" height="100%">
+      <img class="littlespacer" src="{{ site.image_path }}/advocate/advPrototyp2.png" height="100%">
+      <img class="littlespacer" src="{{ site.image_path }}/advocate/advPrototyp3.png" height="100%">
+  </div>  
   </div>
+
 </div>
-<br>
-The [HisFrag20 dataset](https://zenodo.org/record/3893807#.X05Y3y336CM) was compiled by aSteuert et al. and published for the ICFHR 2020 Competition on Image Retrieval for Historical Handwritten Fragments (HisFrag20) [1].
-
-The dataset contains a training and a test set with the following image naming-convention: 
-
-```ruby
-WID_PID_FID.jpg 
-
-where 
-WID = writer id
-PID = page id, 
-FID = fragment id.
-
-```
-
-The **train set** contains arround **100,000 fragments** using the Historical-IR19 as base dataset, they should all contain some text even some fragments are quite small. The **test set** contains about **20,000** new fragments
-
-## Prerequisites
-
-```
-The dependencies to this project are stored in the file:
-   - requirements.txt
-
-I use python version 3.7.4
-```
-
-## Author
-
-* **Timo Bohnstedt** - If you have questions you can contact me under [timo.bohnstedt@gmail.com](timo.bohnstedt@gmail.com)
-
-## License
-
-This project was done during my graduate studys in computer science at the University Erlangen-Nürnberg.
-
-
-## SOURCE 
-
-[1] M. Seuret, A. Nicolaou, D. Stutzmann, A. Maier , V. Christlein
-“ICFHR 2020 Competition on Image Retrieval for Historical Handwritten Fragments”, International Conference on Frontiers of Handwriting Recognition, September, 2020 -->

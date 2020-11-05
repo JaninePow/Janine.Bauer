@@ -153,11 +153,21 @@ aside {
 }
 
 
+.projectHeaderPic{
+   background-image: url('../public/images/advocate/advMobileWatch.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: relative;
+   width: 100%;
+   min-height: auto;
+   height:300px;
+   text-align: center;
+}
 
 // Homepage Header
 
 header {
-
     background-position: left;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -170,7 +180,7 @@ header {
     color: @theme-dark;
     .header-content {
         position: relative;
-        padding: 100px 15px 300px;
+        padding: 100px 15px;
         width: 100%;
         background-color: white;
         color: @theme-dark;
@@ -404,7 +414,6 @@ body {
     .aboutpic{
         background-image: url('../img/me.jpg');
         background-color: #cccccc;
-    
         border-radius: 50%;
         height: 250px;
         width: 250px;
@@ -413,3 +422,51 @@ body {
         margin: 50px;
     }
 }
+
+#project-content{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}
+
+.littlespacer{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#advWireframes{
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 600px;
+      background-image: url(../public/images/advocate/advWireframe.png);
+}
+
+#advPaperprototype{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-image: url(../public/images/advocate/advPaperprototype.jpg);
+}
+
+#advMoodboard{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-image: url(../public/images/advocate/advMoodboard.png);
+}
+
+
+@media (max-width: 700px) {
+    #advWireframes,#advPaperprototype,#advMoodboard{
+    
+        height: 300px; 
+  }
+}
+

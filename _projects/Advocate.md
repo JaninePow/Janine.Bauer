@@ -24,7 +24,7 @@ image: Advocate.png
     </div>
      <div class="col-lg-6">
       <h3>Cooperation</h3>
-      <p>This study project was designed in my second year of my UXD studies in teamwork with Lena Stützt and Martin Gädeke.
+      <p>This study project was designed in my second year of my UXD studies in teamwork with Lena Stütz and Martin Gädeke.
       The project is in cooperation with the Queensland University of Technology. The product design of the running shoe sensor is from Luis Tee.
       </p>
     </div>

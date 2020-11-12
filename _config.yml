@@ -8,7 +8,8 @@ baseurl:
 
 
 # File structure settings
-image_path:         /public/images
+image_path:                     /public/images
+image_path_photography:         /img/photography
 
 # Build settings
 markdown:           kramdown

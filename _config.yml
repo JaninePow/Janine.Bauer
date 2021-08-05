@@ -9,6 +9,7 @@ baseurl:
 
 # File structure settings
 image_path:                     /public/images
+video_path:                     /public/videos
 image_path_photography:         /img/photography
 
 # Build settings

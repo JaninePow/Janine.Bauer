@@ -13,14 +13,14 @@ image: Advocate.png
 <div class="section">
   <div class="row">
     <div class="col-lg-6">
-      <h3 class="text-center"> Project Vison</h3>
+      <h2>Project Vison</h2>
       <p class="cl-lg-4 text-left">Advocate monitors ankle injuries for professional runners. The information is collected via a sensor attached to the running shoes. The sensor tracks the ankle tilting to determine an overload of inversion or eversion. The sensors on each foot show a status light of the information and send it via Bluetooth to a bracelet. The athlete gets visual and haptic feedback from the bracelet.
  After a running session, the athlete can check performance data on the Advocate App. Besides, the coach of the
  athlete get a summarization.
       </p>
     </div>
      <div class="col-lg-6">
-      <h3 class="text-center">Cooperation</h3>
+      <h2>Cooperation</h2>
       <p>This study project was designed in the second year of my UXD studies in teamwork with Lena Stütz and Martin Gädeke.
  The project is in cooperation with the Queensland University of Technology. The product design of the running shoe sensor is from Luis Tee.
       </p>
@@ -29,12 +29,12 @@ image: Advocate.png
 
   <!-- <h3>Challenges</h3> -->
 
-  <div class="section text-center spacer">
+  <div class="section spacer text-center">
 
    <!--  <h3>Conception and design workflow</h3>  -->
 
   <div class="row spacer">
-      <h3>Personas</h3>
+      <h2>Personas</h2>
          <p>Harry Hurt is a young athlete.<br>Biggest challenge: "I am too often too ambitions."</p>
         <p>William Whip is his coach.<br>Biggest challenge: "I often struggle with todays technology.‚"</p>
    <!--    <img src="{{ site.image_path }}/advocate/advPersona1.png" height="310">
@@ -43,25 +43,27 @@ image: Advocate.png
   <br>
 
   <div class="row spacer">
-      <h3>Paper prototyping</h3>
-      <div id="advPaperprototype"></div>  
+      <h2>Paper prototyping</h2>
+      <div class="text-center">
+      <img src="{{ site.image_path }}/advocate/advPaperprototype.jpg" width="70%">
+      </div> 
   </div> 
   
 
    <div class="row spacer">
-      <h3>Wireframes</h3>
-          <div id="advWireframes"></div>  
+      <h2>Wireframes</h2>
+      <img src="{{ site.image_path }}/advocate/advWireframe.png" width="70%">
   </div>  
 
   <div class="row spacer">
-      <h3>Moodboard</h3>
-      <div id="advMoodboard"></div>  
+      <h2>Moodboard</h2>
+      <img src="{{ site.image_path }}/advocate/advMoodboard.png" width="70%">
  </div> 
 
  <div class="row spacer">
-      <h3>Design</h3>
+      <h2>Design</h2>
       <p>The watch sends the data to the app.</p>
-      <img src="{{ site.image_path }}/advocate/advWatch.png" height="100%">
+       <img src="{{ site.image_path }}/advocate/advWatch.png" width="10%">
    </div>  
  
    <div class="row spacer">

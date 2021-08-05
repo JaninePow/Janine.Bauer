@@ -1,0 +1,68 @@
+I"�
+<div class="projectHeaderPic"></div>
+
+<div class="section">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Project Vison</h2>
+      <p class="cl-lg-4 text-left">Advocate monitors ankle injuries for professional runners. The information is collected via a sensor attached to the running shoes. The sensor tracks the ankle tilting to determine an overload of inversion or eversion. The sensors on each foot show a status light of the information and send it via Bluetooth to a bracelet. The athlete gets visual and haptic feedback from the bracelet.
+ After a running session, the athlete can check performance data on the Advocate App. Besides, the coach of the
+ athlete get a summarization.
+      </p>
+    </div>
+     <div class="col-lg-6">
+      <h2>Cooperation</h2>
+      <p>This study project was designed in the second year of my UXD studies in teamwork with Lena Stütz and Martin Gädeke.
+ The project is in cooperation with the Queensland University of Technology. The product design of the running shoe sensor is from Luis Tee.
+      </p>
+    </div>
+  </div>
+
+  <!-- <h3>Challenges</h3> -->
+
+  <div class="section spacer">
+
+   <!--  <h3>Conception and design workflow</h3>  -->
+
+  <div class="row spacer">
+      <h2>Personas</h2>
+         <p>Harry Hurt is a young athlete.<br />Biggest challenge: "I am too often too ambitions."</p>
+        <p>William Whip is his coach.<br />Biggest challenge: "I often struggle with todays technology.‚"</p>
+   <!--    <img src="/public/images/advocate/advPersona1.png" height="310">
+      <img src="/public/images/advocate/advPersona2.png" height="310"> -->
+  </div> 
+  <br />
+
+  <div class="row spacer">
+      <h2>Paper prototyping</h2>
+      <img class="text-center" src="/public/images/advocate/advPaperprototype.jpg" width="70%" />
+  </div> 
+  
+
+   <div class="row spacer">
+      <h2>Wireframes</h2>
+      <img src="/public/images/advocate/advWireframe.png" width="70%" />
+  </div>  
+
+  <div class="row spacer">
+      <h2>Moodboard</h2>
+      <img src="/public/images/advocate/advMoodboard.png" width="70%" />
+ </div> 
+
+ <div class="row spacer">
+      <h2>Design</h2>
+      <p>The watch sends the data to the app.</p>
+       <img src="/public/images/advocate/advWatch.png" width="10%" />
+   </div>  
+ 
+   <div class="row spacer">
+    <p>The app shows statistics of one runnings session and overall statistics related to the time range. <br />A quick
+    check up about the feeling of the athlete is additionally collected.</p>
+      <img class="littlespacer" src="/public/images/advocate/advPrototyp1.png" height="100%" />
+      <img class="littlespacer" src="/public/images/advocate/advPrototyp2.png" height="100%" />
+      <img class="littlespacer" src="/public/images/advocate/advPrototyp3.png" height="100%" />
+  </div>  
+  </div>
+
+</div>
+:ET

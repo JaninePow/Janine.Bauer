@@ -4,7 +4,7 @@ $font-stack: Arial, Helvetica, sans-serif;
 /* Templating */
 html, body, div, span, h1, h2, h3, h4,
 h5, h6, p, a, img, i, ol, ul, li, form,
-label, table, caption, {
+label, table, caption {
 	margin: 0;
 	padding: 0;
 }
@@ -20,8 +20,8 @@ html {
 		/* Header */
 		header {
 			width: 100%;
-			// background-color: #222;
-			// color: #fff;
+		    background-color: #fff ;
+		    color: #222;
 
 			nav {
 				margin: 0 auto;
@@ -247,10 +247,10 @@ html {
 		}
 		/* Footer */
 		footer {
-			margin-top: 40px;
-			width: 100%;
-			background-color: #222;
-			color: #fff;
+		//	margin-top: 40px;
+		//	width: 100%;
+		//    background-color: #fff !important;
+		//    color: #222 !important;
 
 			ul {
 				margin: 0 auto;

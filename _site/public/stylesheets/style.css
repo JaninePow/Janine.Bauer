@@ -19,8 +19,7 @@ html {
     /* Footer */ }
     html body header {
       width: 100%;
-      background-color: #222;
-      color: #fff; }
+   }
       html body header nav {
         margin: 0 auto;
         padding: 20px 0;
@@ -194,10 +193,12 @@ html {
       html body main.project section#contact-content ol, html body main.project section#contact-content ul {
         margin-left: 40px; }
     html body footer {
-      margin-top: 40px;
+      /* margin-top: 40px; */
       width: 100%;
-      background-color: #222;
-      color: #fff; }
+      background-color: #fff;
+      color: #222;
+    
+    }
       html body footer ul {
         margin: 0 auto;
         padding: 10px 0;

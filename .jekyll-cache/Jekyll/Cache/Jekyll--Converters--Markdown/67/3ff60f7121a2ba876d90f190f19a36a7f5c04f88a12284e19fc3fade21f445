@@ -1,14 +1,4 @@
----
-layout: project
-title: Advocate
-subtitle: Running app for prevention of injuries 
-image: Advocate.png
-
----
-
-
-<div class="projectHeaderPic"></div>
-  
+I"ÿ<div class="projectHeaderPic"></div>
 
 <div class="section">
   <div class="row">
@@ -47,8 +37,8 @@ image: Advocate.png
         <p class="cl-lg-4 text-left">Biggest challenge: "I often struggle with todays technology."</p>
       </div>
 
-   <!--    <img src="{{ site.image_path }}/advocate/advPersona1.png" height="310">
-      <img src="{{ site.image_path }}/advocate/advPersona2.png" height="310"> -->
+   <!--    <img src="/public/images/advocate/advPersona1.png" height="310">
+      <img src="/public/images/advocate/advPersona2.png" height="310"> -->
   </div> 
     <div class="section spacer"> 
     <div class="row spacer">
@@ -58,66 +48,39 @@ image: Advocate.png
       </p>
     </div>
      <div class="col-lg-6">
-      <img src="{{ site.image_path }}/advocate/advPaperprototype.jpg" width="70%">
+      <img src="/public/images/advocate/advPaperprototype.jpg" width="70%" />
     </div>
 </div>
 
   <div class="section spacer">
     <div class="row spacer">
-      <div class="col-lg-12">
         <h2>Wireframes</h2>
-          <p class="cl-lg-4 text-left">We drafted Wireframes to get an overview of the complexity of the concept. It also describes the structure and content of each screen.
-          </p>
           <div class="text-center">
-           <img src="{{ site.image_path }}/advocate/advWireframe.png" width="95%">
+           <img src="/public/images/advocate/advWireframe.png" width="90%" />
          </div>  
-        </div>
     </div>  
    </div>
 
-
-
-
-  </div> 
-    <div class="section spacer"> 
-    <div class="row spacer">
-    <div class="col-lg-6">
+  <div class="row spacer">
       <h2>Moodboard</h2>
-      <p class="cl-lg-4 text-left">The moodboard shows, that our design is predominantly discreet in white. The attention of the athlete and coach should be drawn by the colours green, yellow and red like a traffic light system. 
-      </p>
-    </div>
-     <div class="col-lg-6">
-     <img src="{{ site.image_path }}/advocate/advMoodboard.png" width="95%">
-    </div>
-</div>
+      <img src="/public/images/advocate/advMoodboard.png" width="70%" />
+ </div> 
 
-
-  <div class="section spacer">
-    <div class="row spacer">
-      <div class="col-lg-12">
-        <h2>Design</h2>
-          <p class="cl-lg-4 text-left">The watch sends the data to the app.
-          </p>
-          <div class="text-center">
-           <img src="{{ site.image_path }}/advocate/advWatch.png" width="10%">
-         </div>  
-        </div>
-    </div>  
-   </div>
-
+ <div class="row spacer">
+      <h2>Design</h2>
+      <p>The watch sends the data to the app.</p>
+       <img src="/public/images/advocate/advWatch.png" width="10%" />
+   </div>  
+ 
    <div class="row spacer">
-    <p>The app shows statistics of one runnings session and overall statistics related to the time range. <br>A quick
+    <p>The app shows statistics of one runnings session and overall statistics related to the time range. <br />A quick
     check up about the feeling of the athlete is additionally collected.</p>
-     <div class="row spacer text-center">
-      <img class="littlespacer" src="{{ site.image_path }}/advocate/advPrototyp1.png" height="100%">
-      <img class="littlespacer" src="{{ site.image_path }}/advocate/advPrototyp2.png" height="100%">
-      <img class="littlespacer" src="{{ site.image_path }}/advocate/advPrototyp3.png" height="100%">
-      </div>  
+      <img class="littlespacer" src="/public/images/advocate/advPrototyp1.png" height="100%" />
+      <img class="littlespacer" src="/public/images/advocate/advPrototyp2.png" height="100%" />
+      <img class="littlespacer" src="/public/images/advocate/advPrototyp3.png" height="100%" />
   </div>  
-
-
-
-
   </div>
 
 </div>
+</div></div>
+:ET

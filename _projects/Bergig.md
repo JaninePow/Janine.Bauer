@@ -2,6 +2,7 @@
 layout: project
 title: Bergig
 subtitle: App for finding your Via Ferrata
+subsubtitle: Juli 2021
 image: bergigApp.png
 
 ---
@@ -96,7 +97,7 @@ image: bergigApp.png
   <div class="row spacer text-center">
     <h3>Prototyp</h3>
     <p></p>
-    <video width="400" height="600" controls>
+    <video width="300" height="600" controls>
       <source src="{{ site.video_path}}/Wireframes_BergigVideo.mp4" type="video/mp4">
     </video>
   </div> 

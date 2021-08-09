@@ -2,6 +2,7 @@
 layout: project
 title: eHMI
 subtitle: External communication between automated vehicles and vulnerable road users
+subsubtitle: March 2021
 image: eHMI.png
 
 ---

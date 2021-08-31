@@ -164,6 +164,12 @@ aside {
   height: 300px;
   text-align: center;
 }
+.img-circle {
+  border-radius: 50%;
+}
+.background-black {
+  background-color: black;
+}
 header {
   background-position: left;
   background-repeat: no-repeat;

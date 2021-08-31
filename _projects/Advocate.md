@@ -37,7 +37,7 @@ image: Advocate.png
       <div class="col-lg-6">
         <div class="row">
             <div class="col-lg-3 img-circle-pad">
-              <img src="{{ site.image_path }}/advocate/advPersona_1.png" class="img-circle" width="100">
+              <img src="{{ site.image_path }}/advocate/advPersona1.png" class="img-circle" width="100">
             </div>
             <div class="col-lg-9">
               <h3>Harry Hurt</h3>
@@ -49,7 +49,7 @@ image: Advocate.png
       <div class="col-lg-6">
         <div class="row">
             <div class="col-lg-3 img-circle-pad">
-              <img src="{{ site.image_path }}/advocate/advPersona_2.png" class="img-circle" width="100" >
+              <img src="{{ site.image_path }}/advocate/advPersona2.png" class="img-circle" width="100" >
             </div>
             <div class="col-lg-9">
               <h3>William Whip</h3>

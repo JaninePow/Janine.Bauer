@@ -36,10 +36,10 @@ image: Advocate.png
     <div class="row">
       <div class="col-lg-6">
         <div class="row">
-            <div class="col-lg-3 img-circle-pad">
+<!--             <div class="col-lg-3 img-circle-pad">
               <img src="{{ site.image_path }}/advocate/advPersonaHarryHurt.png" class="img-circle" width="100">
-            </div>
-            <div class="col-lg-9">
+            </div> -->
+            <div class="col-lg-12">
               <h3>Harry Hurt</h3>
               <p class="text-left text-muted">Young athlete</p>
               <p class="text-left">"I am too often too ambitions."</p>
@@ -48,10 +48,10 @@ image: Advocate.png
       </div>
       <div class="col-lg-6">
         <div class="row">
-            <div class="col-lg-3 img-circle-pad">
+  <!--           <div class="col-lg-3 img-circle-pad">
               <img src="{{ site.image_path }}/advocate/advPersonaWilliamWhip.png" class="img-circle" width="100" >
-            </div>
-            <div class="col-lg-9">
+            </div> -->
+            <div class="col-lg-12">
               <h3>William Whip</h3>
               <p class="text-left text-muted">His coach</p>
               <p class="text-left">"I often struggle with todays technology."</p>

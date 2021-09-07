@@ -213,6 +213,10 @@ header .header-content .header-content-inner p {
     content: "photography";
   }
 }
+#contact,
+#photography {
+  padding-top: 100px;
+}
 .section-heading {
   margin-top: 0;
 }

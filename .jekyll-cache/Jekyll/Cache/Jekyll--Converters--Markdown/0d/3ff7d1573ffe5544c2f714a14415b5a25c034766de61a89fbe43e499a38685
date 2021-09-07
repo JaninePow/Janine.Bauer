@@ -1,12 +1,4 @@
----
-layout: project
-title: Advocate
-subtitle: Running app for prevention of injuries
-subsubtitle: February 2019
-image: Advocate.png
----
-
-<div class="projectHeaderPic"></div>
+I"g<div class="projectHeaderPic"></div>
 
 <div class="section">
   <div class="row">
@@ -38,7 +30,7 @@ image: Advocate.png
       <div class="col-lg-6">
         <div class="row">
              <div class="col-s-3 img-circle-pad">
-              <img src="{{ site.image_path }}/advocate/advPersonaHarryHurt.png" class="img-circle" width="100">
+              <img src="/public/images/advocate/advPersonaHarryHurt.png" class="img-circle" width="100" />
             </div> 
             <div class="col-s-9">
               <h3>Harry Hurt</h3>
@@ -50,7 +42,7 @@ image: Advocate.png
       <div class="col-lg-6">
         <div class="row">
             <div class="col-s-3 img-circle-pad">
-              <img src="{{ site.image_path }}/advocate/advPersonaWilliamWhip.png" class="img-circle" width="100" >
+              <img src="/public/images/advocate/advPersonaWilliamWhip.png" class="img-circle" width="100" />
             </div> 
             <div class="col-s-9">
               <h3>William Whip</h3>
@@ -65,9 +57,9 @@ image: Advocate.png
     </div>
   </div>
 
-  <div class="row spacer"></div>
+<div class="row spacer"></div>
 
-  <div class="section spacer"> 
+<div class="section spacer"> 
     <div class="row">
     <div class="col-lg-6">
       <h2>Paper prototyping</h2>
@@ -75,28 +67,27 @@ image: Advocate.png
       </p>
     </div>
       <div class="col-lg-6">
-        <img src="{{ site.image_path }}/advocate/advPaperprototype.jpg" width="70%">
+        <img src="/public/images/advocate/advPaperprototype.jpg" width="70%" />
       </div>
     </div>
   </div>
 
-  <div class="section spacer">
+<div class="section spacer">
     <div class="row spacer">
       <div class="col-lg-12">
         <h2>Wireframes</h2>
           <p class="cl-lg-4 text-left">We drafted Wireframes to get an overview of the complexity of the concept. It also describes the structure and content of each screen.
           </p>
           <div class="text-center">
-           <img src="{{ site.image_path }}/advocate/advWireframe.png" width="95%">
+           <img src="/public/images/advocate/advWireframe.png" width="95%" />
          </div>  
       </div>
     </div>  
   </div>
 
+<div class="row spacer"></div>
 
-<div class="row spacer"></div> 
-
-  <div class="section spacer"> 
+<div class="section spacer"> 
     <div class="row spacer">
     <div class="col-lg-6">
       <h2>Moodboard</h2>
@@ -104,7 +95,7 @@ image: Advocate.png
       </p>
     </div>
      <div class="col-lg-6">
-     <img src="{{ site.image_path }}/advocate/advMoodboard.png" width="95%">
+     <img src="/public/images/advocate/advMoodboard.png" width="95%" />
     </div>
 </div>
 
@@ -121,12 +112,10 @@ image: Advocate.png
     </div>  
    </div>
 
-   <div class="row">
-     <div class="row spacer text-center iframe-container">
-        <iframe class="example" frameborder="0" scrolling="no" src="https://www.youtube.com/embed/dhLVDUZhvxk?rel=0&amp;autoplay=0&mute=1" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row">
+     <div class="row spacer text-center">
+        <iframe width="100%" src="https://www.youtube.com/embed/dhLVDUZhvxk?rel=0&amp;autoplay=0&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>  
   </div>
 
- 
-
-
+:ET
